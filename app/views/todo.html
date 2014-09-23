@@ -1,0 +1,7 @@
+<div class='row marketing'>
+  <div class='todo' data-ng-repeat='todo in todoList'>
+    <h3>{{ todo.title }}</h3>
+    <p>{{ todo.desc }}</p>
+    <p data-ng-if='todo.complete'>Completed</p>
+  </div>
+</div>
