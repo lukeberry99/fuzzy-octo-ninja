@@ -9,7 +9,7 @@
  */
 angular.module('myApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.fancyArr = [
+    $scope.marketingItems = [
       { 
         title: 'HTML5 Boilerplate',
         desc: 'HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.'
