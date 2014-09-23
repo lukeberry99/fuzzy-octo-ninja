@@ -1,6 +1,7 @@
 {
-  "name": "angularstuff",
-  "version": "0.0.0",
+  "name": "angularExperiments",
+  "version": "0.0.1",
+  "description": "Experimenting with Angular, Traivis, CI, automation, etc",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.1",
