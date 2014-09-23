@@ -10,13 +10,7 @@
 angular.module('myApp')
   .controller('TodoCtrl', function ($scope) {
     $scope.todo = {};
-    $scope.todoList = [
-      {
-        title: 'Todo list title',
-        desc: 'Todo list description',
-        complete: true
-      }
-    ];
+    $scope.todoList = [];
     $scope.update = function() {
       $scope.todoList.push($scope.todo);
     }
