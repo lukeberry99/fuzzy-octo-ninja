@@ -17,7 +17,7 @@ describe('Controller: TodoCtrl', function () {
   }));
 
   it('should attach a list of todoItems to the scope', function () {
-    expect(scope.todoList.length).toBe(5);
+    expect(scope.todoList.length).toBe(1);
   });
   
 });

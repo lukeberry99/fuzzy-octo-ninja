@@ -5,3 +5,22 @@
     <p data-ng-if='todo.complete'>Completed</p>
   </div>
 </div>
+<div class='row marketing'>
+  <form role='form'>
+    <div class='form-group'>
+      <label for='todoTaskTitle'>Task Title</label>
+      <input type='text' class='form-control' id='todoTaskTitle' placeholder='Task Title' data-ng-model='todo.title'/>
+    </div>
+    <div class='form-group'>
+      <label for='todoTaskDescription'>Task Description</label>
+      <textarea class='form-control' rows='3' data-ng-model='todo.desc'></textarea>
+    </div>
+    <div class='checkbox'>    
+      <label>
+        <input type='checkbox' value='true' data-ng-model='todo.complete'>
+        Completed
+      </label>
+    </div>
+    <button type='submit' class='btn btn-default' data-ng-click='update()'>Submit</button>
+  </form>  
+</div>
